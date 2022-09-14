@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 0, 0);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>50</y>
+      <width>741</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>470</y>
+       <width>231</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../formula-1-logo-1-1.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>20</y>
+       <width>111</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Overview</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="AdminOverview">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>70</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>90</y>
+       <width>101</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Cadastrar</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="CadastroEscuderia">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>190</y>
+       <width>221</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	background-color: rgb(255, 0, 0);
+	border-radius:10px;
+		
+}
+
+QPushButton:hover{
+	background-color: rgb(191, 0, 0);
+	border:none;	
+	gridline-color: rgb(191, 0, 0);
+}
+
+QPushButton:pressr{
+	border:none;	
+	border-bottom:none;
+	gridline-color: rgb(191, 0, 0);
+}</string>
+     </property>
+     <property name="text">
+      <string>Escuderias</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="CadastroPiloto">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>130</y>
+       <width>221</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	background-color: rgb(255, 0, 0);
+	border-radius:10px;
+		
+}
+
+QPushButton:hover{
+	background-color: rgb(191, 0, 0);
+	border:none;	
+	gridline-color: rgb(191, 0, 0);
+}
+
+QPushButton:pressr{
+	border:none;	
+	border-bottom:none;
+	gridline-color: rgb(191, 0, 0);
+}</string>
+     </property>
+     <property name="text">
+      <string>Piloto</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>130</y>
+       <width>191</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Pilotos cadastrados:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>220</y>
+       <width>231</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Escuderias cadastradas:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>370</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>310</y>
+       <width>221</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Corridas cadastradas:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>400</y>
+       <width>241</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Temporadas cadastradas:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>240</y>
+       <width>101</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Outros</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Relatorio1">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>280</y>
+       <width>221</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	background-color: rgb(255, 0, 0);
+	border-radius:10px;
+		
+}
+
+QPushButton:hover{
+	background-color: rgb(191, 0, 0);
+	border:none;	
+	gridline-color: rgb(191, 0, 0);
+}
+
+QPushButton:pressr{
+	border:none;	
+	border-bottom:none;
+	gridline-color: rgb(191, 0, 0);
+}</string>
+     </property>
+     <property name="text">
+      <string>Relatório 1</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="NumeroPilotos">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>130</y>
+       <width>191</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>a</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="NumeroEscuderias">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>220</y>
+       <width>191</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>a</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="NumeroCorridas">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>310</y>
+       <width>191</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>a</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="NumeroTemporadas">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>400</y>
+       <width>191</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>a</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Relatorio2">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>340</y>
+       <width>221</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	background-color: rgb(255, 0, 0);
+	border-radius:10px;
+		
+}
+
+QPushButton:hover{
+	background-color: rgb(191, 0, 0);
+	border:none;	
+	gridline-color: rgb(191, 0, 0);
+}
+
+QPushButton:pressr{
+	border:none;	
+	border-bottom:none;
+	gridline-color: rgb(191, 0, 0);
+}</string>
+     </property>
+     <property name="text">
+      <string>Relatório 2</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
